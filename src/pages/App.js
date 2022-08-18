@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import './App.css'
 import SearchBox from '../components/searchBox/SearchBox';
 import CardList from '../components/cardList/CardList';
+import Footer from '../components/footer/Footer'
 
 
 function App() {
@@ -41,6 +42,8 @@ function App() {
       {!robots.length && !loading && <h3 style={{ textAlign: 'center'}}>No result found!!!</h3>}
       
       <CardList clients={filteredRobots(robots)}/>
+
+      <Footer/>
     </div>
   )
 }

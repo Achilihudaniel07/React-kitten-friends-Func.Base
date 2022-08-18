@@ -1,0 +1,22 @@
+body{
+  min-height: 100vh;
+  position: relative;
+}
+.footer{
+    margin-top: 230px;
+    background-color: rgba(133, 119, 119, 0.953);
+    padding: 20px;
+    /* position: absolute; */
+    height: min-content;
+    min-height: 40px;
+  }
+  
+.footer1{
+    color: black; 
+    font-family:Georgia, 'Times New Roman', Times, serif;
+  }
+  .footer a{
+    color: whitesmoke;
+    text-decoration: none;
+  }
+  
